@@ -9,7 +9,6 @@ class BlackFridayDeals {
     }
 
     public void removeCustomer(Customers customer) {
-
         customers.remove(customer);
     }
 

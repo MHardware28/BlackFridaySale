@@ -19,10 +19,15 @@ public class Main {
         BlackFridayDeals deals = new BlackFridayDeals();
         Customers c1 = new Customers("Alice");
         Customers c2 = new Customers("Bob");
+        Customers c3 = new Customers("Makayla");
 
         System.out.println(" ");
         deals.registerCustomer(c1);
         deals.registerCustomer(c2);
+        deals.registerCustomer(c3);
+
+        c3.unsubscribe();
+
 
         deals.notifyCustomers("50% off all electronics!");
     }
