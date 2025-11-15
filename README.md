@@ -27,16 +27,9 @@ Additionally, the Observer pattern is implemented to notify customers about spec
 - Customers: Represents a customer with a subscription status. Handles notifications and unsubscription.
 - BlackFridayDeals: Manages the list of subscribed customers and sends deal notifications.
 
-
-
-
-
-
-
-
-
-
-
+## Requirements
+- Java Development Kit (JDK) 8 or higher
+- No external libraries required
 
 ## Example Output - 
 ```
